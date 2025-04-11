@@ -58,7 +58,7 @@ print(classification_report(y_test, y_pred))
 
 # Save the model
 import pickle
-filename = 'diabetes_balanced_model.pkl'
+filename = 'diabetes.pkl'
 with open(filename, 'wb') as file:
     pickle.dump(rfc, file)
 
